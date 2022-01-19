@@ -1,0 +1,119 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/53/9c/87/539c87d7bf15e8b8d9c1d80bec19cbb2.jpg);
+  background-attachment: scroll;
+  background-position: 50%;
+  background-size: 54% 100%;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.377);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-titles {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 2%;
+}
+
+.titles {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.titles span {
+  font-size: 27px;
+}
+
+.titles-f {
+  font-size: 22px;
+}
+
+.titles-f span {
+  font-size: 13px;
+}
+
+.title-principal {
+  color: white;
+  text-align: center;
+  font-size: 94px;
+  padding: 30px;
+}
+
+.title-article {
+  color: white;
+  font-size: 20px;
+  padding-left: 24%;
+  padding-top: 60vh;
+}
+
+.title-article span {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.article-footer {
+  color: white;
+  /* padding-top: 50px;
+  padding-block-end: 30px;
+  padding-left: 19%;
+  padding-right: 19%; */
+  padding: 60px 250px 10px 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.article-footer span {
+  text-transform: lowercase;
+  font-size: 19px;
+  color: #ffce27;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.article-footer article::first-letter {
+  text-transform: uppercase;
+}
+
+.article-footer p::first-letter {
+  text-transform: uppercase;
+}
+
+.image img {
+  width: 50px;
+  height: 80px;
+}
+
+.circulo-aviso {
+  color: white;
+  position: absolute;
+  right: 320px;
+  background: #ffce27;
+  border-radius: 55%;
+  text-align: center;
+  padding: 35px;
+}
+
+.circulo-aviso p {
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.circulo-aviso label {
+  font-size: 23px;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+
+.circulo-aviso p::first-letter {
+  text-transform: uppercase;
+}
